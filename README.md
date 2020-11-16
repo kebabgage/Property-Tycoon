@@ -6,12 +6,12 @@ A Monopoly-like game that features CPU that you can play against as well as set 
 
 You will have to install pygame if you do not have it.
 
-'''
+```
 pip install pygame
-'''
+```
 
 ## Gameplay Demo 
 
-Demo of player vs CPU 
+Example gameplay of user playing against a CPU
 
 ![](property-tycoon.gif)

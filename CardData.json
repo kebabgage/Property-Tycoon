@@ -1,0 +1,290 @@
+[
+  {
+    "Card_ID": 1,
+    "SubClassType": "Payment",
+    "Description": "You inherit £100",
+    "ActionData": ["Bank", "Player", "100"],
+    "CanBuy": "Bank pays player £100",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card1.png"
+  },
+  {
+    "Card_ID": 2,
+    "SubClassType": "Payment",
+    "Description": "You have won 2nd prize in a beauty contest, collect £20",
+    "ActionData": ["Bank", "Player", "20"],
+    "CanBuy": "Bank pays player £20",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card2.png"
+  },
+  {
+    "Card_ID": 3,
+    "SubClassType": "Movement",
+    "Description": "Go back to Crapper Street",
+    "ActionData": ["Direct", "Crapper Street"],
+    "CanBuy": "Player token moves backwards to Crapper Street",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card3.png"
+  },
+  {
+    "Card_ID": 4,
+    "SubClassType": "Payment",
+    "Description": "Student loan refund. Collect £20",
+    "ActionData": ["Bank", "Player", "20"],
+    "CanBuy": "Bank pays player £20",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card4.png"
+  },
+  {
+    "Card_ID": 5,
+    "SubClassType": "Payment",
+    "Description": "Bank error in your favour. Collect £200",
+    "ActionData": ["Bank", "Player", "200"],
+    "CanBuy": "Bank pays player £200",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card5.png"
+  },
+  {
+    "Card_ID": 6,
+    "SubClassType": "Payment",
+    "Description": "Pay bill for text books of £100",
+    "ActionData": ["Player", "Bank", "100"],
+    "CanBuy": "Player pays £100 to the bank",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card6.png"
+  },
+  {
+    "Card_ID": 7,
+    "SubClassType": "Payment",
+    "Description": "Mega late night taxi bill pay £50",
+    "ActionData": ["Player", "Bank", "50"],
+    "CanBuy": "Player pays £50 to the bank",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card7.png"
+  },
+  {
+    "Card_ID": 8,
+    "SubClassType": "Movement",
+    "Description": "Advance to go",
+    "ActionData": ["Direct", "Go"],
+    "CanBuy": "Player moves forwards to GO",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card8.png"
+  },
+  {
+    "Card_ID": 9,
+    "SubClassType": "Payment",
+    "Description": "From sale of Bitcoin you get £50",
+    "ActionData": ["Bank", "Player", "50"],
+    "CanBuy": "Bank pays player £50",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card9.png"
+  },
+  {
+    "Card_ID": 10,
+    "SubClassType": "Payment",
+    "Description": "Pay a £10 fine or take opportunity knocks",
+    "ActionData": ["Player", "FreeParking", "10"],
+    "CanBuy": "If fine paid, player puts £10 on free parking",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card10.png"
+  },
+  {
+    "Card_ID": 11,
+    "SubClassType": "Payment",
+    "Description": "Pay insurance fee of £50",
+    "ActionData": ["Player", "FreeParking", "50"],
+    "CanBuy": "Player puts £50 on free parking",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card11.png"
+  },
+  {
+    "Card_ID": 12,
+    "SubClassType": "Payment",
+    "Description": "Savings bond matures, collect £100",
+    "ActionData": ["Bank", "Player", "100"],
+    "CanBuy": "Bank pays £100 to the player",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card12.png"
+  },
+  {
+    "Card_ID": 13,
+    "SubClassType": "Movement",
+    "Description": "Go to jail. Do not pass GO, do not collect £200",
+    "ActionData": ["Direct", "Jail"],
+    "CanBuy": "As the card says",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card13.png"
+  },
+  {
+    "Card_ID": 14,
+    "SubClassType": "Payment",
+    "Description": "Received interest on shares of £25",
+    "ActionData": ["Bank", "Player", "25"],
+    "CanBuy": "Bank pays player £25",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card14.png"
+  },
+  {
+    "Card_ID": 15,
+    "SubClassType": "Payment",
+    "Description": "It's your birthday. Collect £10 from each player",
+    "ActionData": ["OtherPlayers", "Player", "10"],
+    "CanBuy": "Player receives £10 from each player",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card15.png"
+  },
+  {
+    "Card_ID": 16,
+    "SubClassType": "JailFree",
+    "Description": "Get out of jail free",
+    "ActionData": ["JailFree"],
+    "CanBuy": "Retained by the player until needed. No resale or trade value",
+    "Card Type": "Pot luck",
+    "Image": "GUI/images/card_images/card16.png"
+  },
+  {
+    "Card_ID": 17,
+    "SubClassType": "Payment",
+    "Description": "Bank pays you divided of £50",
+    "ActionData": ["Bank", "Player", "50"],
+    "CanBuy": "Bank pays player £50",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card17.png"
+  },
+  {
+    "Card_ID": 18,
+    "SubClassType": "Payment",
+    "Description": "You have won a lip sync battle. Collect £100",
+    "ActionData": ["Bank", "Player", "100"],
+    "CanBuy": "Bank pays player £100",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card18.png"
+  },
+  {
+    "Card_ID": 19,
+    "SubClassType": "Movement",
+    "Description": "Advance to Turing Heights",
+    "ActionData": ["Direct", "Turing Heights"],
+    "CanBuy": "Player token moves forwards to Turing Heights",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card19.png"
+  },
+  {
+    "Card_ID": 20,
+    "SubClassType": "Movement",
+    "Description": "Advance to Han Xin Gardens. If you pass GO, collect £200",
+    "ActionData": ["Direct-Go", "Han Xin Gardens"],
+    "CanBuy": "Player moves token",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card20.png"
+  },
+  {
+    "Card_ID": 21,
+    "SubClassType": "Payment",
+    "Description": "Fined £15 for speeding",
+    "ActionData": ["Player", "FreeParking", "15"],
+    "CanBuy": "Player puts £15 on free parking",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card21.png"
+  },
+  {
+    "Card_ID":22,
+    "SubClassType": "Payment",
+    "Description": "Pay university fees of £150",
+    "ActionData": ["Player", "Bank", "150"],
+    "CanBuy": "Player pays £150 to the bank",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card22.png"
+  },
+  {
+    "Card_ID": 23,
+    "SubClassType": "Movement",
+    "Description": "Take a trip to Hove station. If you pass GO collect £200",
+    "ActionData": ["Direct-Go", "Hove Station"],
+    "CanBuy": "Player moves token",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card23.png"
+  },
+  {
+    "Card_ID": 24,
+    "SubClassType": "Payment",
+    "Description": "Loan matures, collect £150",
+    "ActionData": ["Bank", "Player", "150"],
+    "CanBuy": "Bank pays £150 to the player",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card24.png"
+  },
+  {
+    "Card_ID": 25,
+    "SubClassType": "Repair",
+    "Description": "You are assessed for repairs, £40/house, £115/hotel",
+    "ActionData": ["Player", "Bank", "40/115"],
+    "CanBuy": "Player pays money to the bank",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card25.png"
+  },
+  {
+    "Card_ID": 26,
+    "SubClassType": "Movement",
+    "Description": "Advance to GO",
+    "ActionData": ["Direct", "Go"],
+    "CanBuy": "Player moves token",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card26.png"
+  },
+  {
+    "Card_ID": 27,
+    "SubClassType": "Repair",
+    "Description": "You are assessed for repairs, £25/house, £100/hotel",
+    "ActionData": ["Player", "Bank", "25/100"],
+    "CanBuy": "Player pays money to the bank",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card27.png"
+  },
+  {
+    "Card_ID": 28,
+    "SubClassType": "Movement",
+    "Description": "Go back 3 spaces",
+    "ActionData": ["Non-Direct", "-3"],
+    "CanBuy": "Player moves token",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card28.png"
+  },
+  {
+    "Card_ID": 29,
+    "SubClassType": "Movement",
+    "Description": "Advance to Skywalker Drive. If you pass GO collect £200",
+    "ActionData": ["Direct-Go", "Skywalker Drive"],
+    "CanBuy": "Player moves token",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card29.png"
+  },
+  {
+    "Card_ID": 30,
+    "SubClassType": "Movement",
+    "Description": "Go to jail. Do not pass GO, do not collect £200",
+    "ActionData": ["Direct", "Jail"],
+    "CanBuy": "As the card says",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card30.png"
+  },
+  {
+    "Card_ID": 31,
+    "SubClassType": "Payment",
+    "Description": "Drunk in charge of a skateboard. Fine £20",
+    "ActionData": ["Player", "Bank", "20"],
+    "CanBuy": "Player puts £20 on free parking",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card31.png"
+  },
+  {
+    "Card_ID": 32,
+    "SubClassType": "JailFree",
+    "Description": "Get out of jail free",
+    "ActionData": ["JailFree"],
+    "CanBuy": "Retained by the player until needed. No resale or trade value",
+    "Card Type": "Opportunity knocks",
+    "Image": "GUI/images/card_images/card32.png"
+  }
+]
